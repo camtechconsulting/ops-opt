@@ -14,7 +14,7 @@ import pytesseract
 import time
 
 app = Flask(__name__)
-CORS(app, origins=["https://operational-optimization-dashboard.netlify.app"])
+CORS(app, origins=["https://operations-optimization-dashboard.netlify.app"])
 
 REPORT_FOLDER = os.path.join(app.root_path, 'static', 'reports')
 os.makedirs(REPORT_FOLDER, exist_ok=True)
